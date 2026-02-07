@@ -1,59 +1,53 @@
-/* ---------- Body & General ---------- */
-html {
-    scroll-behavior: smooth;
+/* GENERAL STYLES */
 body {
     font-family: Arial, sans-serif;
-    background-color: lch(97.85% 1.68 265.87)
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-/* ---------- Container ---------- */
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    border-radius: 10px;
-}
-
-/* ---------- Header ---------- */
-h1 {
+/* Header / Hero */
+header {
     text-align: center;
-    color: #2c3e50;
-    padding: 20px 0;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
-/* ---------- Headings ---------- */
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Sections & Headings */
 h2 {
-    color: #34495e;
-    border-bottom: 2px solid #ddd;
+    color: #1a1a1a;
+    border-bottom: 2px solid #0a66c2;
     padding-bottom: 5px;
     margin-top: 30px;
 }
 
-/* ---------- Paragraph & List ---------- */
-p, li {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
+section {
+    margin-bottom: 20px;
 }
 
+/* Lists */
 ul {
+    list-style-type: disc;
     padding-left: 20px;
 }
 
-/* ---------- Horizontal Line ---------- */
-hr {
-    margin: 30px 0;
-    border: 1px solid #ddd;
+li {
+    margin-bottom: 5px;
 }
 
-/* ---------- Contact & Links ---------- */
+/* Links */
 a {
-    color: #2980b9;
+    color: #0a66c2;
     text-decoration: none;
 }
 
@@ -61,203 +55,13 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ---------- Optional: Add some spacing for sections ---------- */
-section {
-    margin-bottom: 20px;
+/* Footer */
 footer {
     text-align: center;
-    padding: 15px;
     margin-top: 30px;
-    background-color: #f2f2f2;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
     color: #666;
-    font-size: 14px;
-}
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-}
-p, li {
-    line-height: 1.6;
-}
-/* Header */
-.header {
-  text-align: center;
-  margin-bottom: 30px;
 }
 
-.header h1 {
-  font-size: 32px;
-  margin-bottom: 8px;
-}
-
-.header p {
-  font-size: 16px;
-  color: #555;
-}
-/* Header */
-.header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.header h1 {
-  font-size: 32px;
-  margin-bottom: 8px;
-}
-
-.header p {
-  font-size: 16px;
-  color: #555;
-}
-/* ===== Header & Profile Image ===== */
-
-.header {
-  text-align: center;
-}
-
-.profile-pic {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-  border: 3px solid #ccc;
-}
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0f0f0f;
-  color: #eaeaea;
-}
-
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-}
-
-.card {
-  background: #1a1a1a;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
-}
-
-h1, h2 {
-  color: #ffd700;
-}
-
-a {
-  color: #ffd700;
-  text-decoration: none;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 18px;
-  border-radius: 25px;
-  border: 1px solid #ffd700;
-  color: #ffd700;
-}
-
-.button:hover {
-  background: #ffd700;
-  color: #000;
-}
-body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    background: #fff;
-    padding: 40px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-
-h1 {
-    margin-bottom: 5px;
-}
-
-h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-    margin-top: 30px;
-}
-
-section {
-    margin-bottom: 25px;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    color: gray;
-    font-size: 14px;
-}
-.skills ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px 40px;
-  list-style-type: square;
-}
-.header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.header h1 {
-  font-size: 34px;
-  margin-bottom: 5px;
-}
-
-.header p {
-  margin: 2px 0;
-  font-size: 16px;
-  color: #555;
-}
-
-.header .role {
-  font-weight: bold;
-  color: #222;
-}
-section ul li {
-  background: #f5f5f5;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 6px;
-}
-/* Mobile Responsive */
-@media (max-width: 768px) {
-
-  .container {
-    margin: 15px;
-    padding: 20px;
-  }
-
-  .header h1 {
-    font-size: 26px;
-  }
-
-  .skills ul {
-    grid-template-columns: 1fr;
-  }
-
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-  }
-}
