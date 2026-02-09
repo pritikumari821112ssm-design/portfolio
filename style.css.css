@@ -153,6 +153,12 @@ section {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+h2 {
+  color: #222;
+  border-bottom: 3px solid #0077b5;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
 
 
 
