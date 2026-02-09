@@ -291,6 +291,38 @@ footer {
   color: #555;
   line-height: 1.5;
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  header.hero {
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  header.hero h1 {
+    font-size: 26px;
+  }
+
+  header.hero p {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+}
+
 
 
 
